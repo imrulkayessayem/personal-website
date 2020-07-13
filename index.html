@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Website</title>
+  <link rel="icon" href="img/je9nvlk3_400x400.jpg">
+  <style>
+
+     body{
+       font-family: Arial, Helvetica, sans-serif;
+       max-width: 100%;
+       max-height: 300%;
+       font-size: 25px;
+       background-color: white;
+     }
+
+     .top {
+        position: relative;
+        max-width: 1895px;
+        max-height: 900px;
+        background-color: #4c6ac0;
+     }
+
+     .back-img{
+       position: absolute;
+       width: 1895px;
+       height: 970px;
+     }
+
+     .name {
+       position: absolute;
+       color: #4c6ac0;
+       top: 50px;
+       left: 700px;
+       z-index: 1;
+       cursor: pointer;
+     }
+
+     .dev {
+       position: absolute;
+       color: #4c6ac0;
+       z-index: 1;
+       top: 230px;
+       left: 820px;
+       cursor: pointer;
+     }
+
+     /* nav */
+
+     .nav {
+       list-style: none;
+       padding: 0;
+       margin: 10px;
+       background-color: #051646;
+       border-radius: 10px;
+       overflow: auto;
+       position: fixed;
+       z-index: 1;
+     }
+
+     .nav li {
+       float: left;
+     }
+
+     .nav li a {
+       display: block;
+       padding: 15px 30px;
+       text-decoration: none;
+       color: #4c6ac0;
+     }
+
+     .nav li:hover {
+       background-color: rgb(10, 10, 129);
+     }
+
+     /* my-img */
+
+     .my-img {
+        position: relative;
+        width: 1906px;
+        height: 1900px;
+     }
+
+     .img-my {
+       position: absolute;
+       width: 300px;
+       top: 900px;
+       left: 760px;
+       border-radius: 100%;
+       cursor: pointer;
+     }
+
+     .img-my:hover {
+       width: 305px;
+       height: 305px;
+     }
+
+    .hi {
+      position: absolute;
+      top: 1250px;
+      left: 890px;
+      color: #143ba5;
+      cursor: zoom-in;
+    }
+
+    .hi:hover {
+      font-size: 40px;
+      color: #0f2050;
+    }
+
+    .hi-p {
+      position: absolute;
+      top: 1330px;
+      left: 300px;
+      color: #143ba5;
+      cursor: pointer;
+    }
+
+    .hi-p:hover {
+      color: #0f2050;
+    }
+
+
+    .read-more {
+      position: absolute;
+      background-color: white;
+      padding: 15px 30px;
+      border-radius: 15%;
+      outline: none;
+      top: 1450px;
+      left: 845px;
+      cursor: pointer;
+      color: #143ba5;
+    }
+
+    .read-more:hover {
+      background-color: #143ba5;
+      color: white;
+    }
+
+    .twitter {
+      position: absolute;
+      background-color: white;
+      color: #143ba5;
+      padding: 15px 35px;
+      border-top-right-radius: 60%;
+      border-top-left-radius: 10%;
+      outline: none;
+      top: 1550px;
+      left: 500px;
+      cursor: pointer;
+    }
+
+    .twitter:hover {
+      background-color: #143ba5;
+      color: white;
+    }
+
+    .facebook {
+      position: absolute;
+      background-color: white;
+      padding: 15px 30px;
+      border-top-left-radius: 60%;
+      border-bottom-right-radius: 60%;
+      outline: none;
+      top: 1550px;
+      left: 845px;
+      cursor: pointer;
+      color: #143ba5;
+    }
+
+    .facebook:hover {
+      background-color: #143ba5;
+      color: white;
+    }
+
+    .instagram {
+      position: absolute;
+      background-color: white;
+      padding: 15px 30px;
+      border-top-left-radius: 60%;
+      border-bottom-right-radius: 10%;
+      outline: none;
+      top: 1550px;
+      right: 600px;
+      cursor: pointer;
+    }
+
+    .instagram:hover {
+    background-color: #143ba5;
+    color: white;
+    }
+
+    .last {
+      position: absolute;
+      width: 1895px;
+      height: 200px;
+      background-color: rgb(3, 3, 75);
+      bottom: 0;
+    }
+
+    .last-2 {
+      position: absolute;
+      color: white;
+      left: 650px;
+    }
+
+  .copy {
+    position: absolute;
+    color: white;
+    right: 630px;
+    font-size: 10px;
+    top: 17px;
+  }
+    
+    
+  </style>
+</head>
+<body>
+  <em>
+  <div class="nav">
+    <li><a href="#">Home</a></li>
+    <li><a href="contact.html">Contanct</a></li>
+    <li><a href="about.html" class="about">About</a></li>
+    <li><a href="project.html">Projects</a></li>
+    <li><a href="hobies.html">Hobbies</a></li>
+  </div>
+  <div class="top">
+    <h1 class="name">Imrul Kayes Sayem</h1>
+    <p class="dev">a webdeveloper</p>
+   <img class="back-img" src="img/9c9ee56457dca85a3889d8cdcc7c5ca0.png" alt="back-img">
+  </div>
+  <br><br><br><br><br>
+
+  <div class="my-img">
+
+    <img class="img-my" src="img/je9nvlk3_400x400.jpg" alt="my-img">
+    <br><br>
+    <h2 class="hi">Hi</h2>
+    <p class="hi-p">I am Md Imrul Kayes Sayem a self-taught web developer. This web site is my first CSS website. I am 16 years old. </p>
+    <br><br>
+    <a class="more-read" href="about.html"><button class="read-more">Read more</button></a>
+    <br><br>
+
+    <a href="https://twitter.com/imrulkayessayem" target="blank"><button class="twitter">twitter</button></a>
+    <a href="https://web.facebook.com/mdimrulkayes.sayem.7" target="blank"><button class="facebook">Facebook</button></a>
+    <a href="https://www.instagram.com/md_imrul01/?hl=en" target="blank"><button class="instagram">Instagram</button></a>
+    <br><br>
+
+    <div class="last">
+      <h2 class="last-2">This website is made by Sayem</h2>
+      <br><br>
+      <h2 class="copy">Copyright &copy 2020.</h2>
+    </div>
+  </div>
+
+
+</em>
+</body>
+</html>
